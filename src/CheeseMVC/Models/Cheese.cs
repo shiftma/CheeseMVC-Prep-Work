@@ -12,6 +12,7 @@ namespace CheeseMVC.Models
         public int CheeseId { get; set; }
         private static int nextId = 1;
         public int Rating { get; set; }
+        public CheeseType Type { get; set; }
 
         public Cheese()
         {
