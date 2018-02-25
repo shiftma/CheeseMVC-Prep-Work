@@ -1,6 +1,6 @@
 ﻿@model CheeseMVC.ViewModels.AddEditCheeseViewModel 
 
-<h2>@ViewBag.edit.Name : @ViewBag.edit.CheeseId</h2>
+<h2>@ViewBag.edit.Name : @ViewBag.edit.ID</h2>
 
 <form asp-controller="Cheese" asp-action="Edit" method="post">
     <input  asp-for="CheeseId" type="hidden" />
